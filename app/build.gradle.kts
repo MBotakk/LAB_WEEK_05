@@ -36,6 +36,7 @@ android {
 }
 
 dependencies {
+    implementation("com.squareup.retrofit2:converter-moshi:2.9.0")
     implementation("com.squareup.retrofit2:retrofit:3.0.0")
     implementation("com.squareup.retrofit2:converter-scalars:3.0.0") // For String responses
     implementation("androidx.core:core-ktx:1.17.0")
